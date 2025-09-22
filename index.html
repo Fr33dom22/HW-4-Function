@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Домашнє завдання – Функції</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <h1>Домашнє завдання: Функції</h1>
+
+    <div class="task">
+      <h2>1. Варіанти функцій</h2>
+      <input type="text" id="nameInput" placeholder="Введи ім'я" />
+      <button onclick="testSayHello()">Перевірити</button>
+    </div>
+
+    <div class="task">
+      <h2>2. Кількість аргументів</h2>
+      <input type="text" id="argsInput" placeholder="Наприклад: 1,2,3" />
+      <button onclick="testCountArgs()">Порахувати</button>
+    </div>
+
+    <div class="task">
+      <h2>3. Порівняння чисел</h2>
+      <input type="number" id="numA" placeholder="Перше число" />
+      <input type="number" id="numB" placeholder="Друге число" />
+      <button onclick="testCompare()">Порівняти</button>
+    </div>
+
+    <div class="task">
+      <h2>4. Факторіал</h2>
+      <input type="number" id="factInput" placeholder="Введи число" />
+      <button onclick="testFactorial()">Обчислити</button>
+    </div>
+
+    <div class="task">
+      <h2>5. З трьох цифр у число</h2>
+      <input
+        type="number"
+        id="digit1"
+        placeholder="1-а цифра"
+        min="0"
+        max="9"
+      />
+      <input
+        type="number"
+        id="digit2"
+        placeholder="2-а цифра"
+        min="0"
+        max="9"
+      />
+      <input
+        type="number"
+        id="digit3"
+        placeholder="3-я цифра"
+        min="0"
+        max="9"
+      />
+      <button onclick="testMakeNumber()">Зібрати</button>
+    </div>
+
+    <div class="task">
+      <h2>6. Площа</h2>
+      <input type="number" id="sideA" placeholder="Довжина" />
+      <input type="number" id="sideB" placeholder="Ширина (необов'язково)" />
+      <button onclick="testArea()">Обчислити</button>
+    </div>
+
+    <div id="results">Тут зʼявлятимуться результати 👇</div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
